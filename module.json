@@ -1,0 +1,40 @@
+{
+	"id": "warfare",
+	"title": "Warfare - unofficial MCDM KaW Sheet",
+	"description": "An implementation of MCDM's warfare rules.",
+	"version": "1.3.0",
+	"authors": [{"name": "Kim Mantas (original)"},
+				{"name": "Michel R Vaillancourt (fork)",
+				"email": "902pe_gaming@wolfstar.ca", "github": "https://github.com/MichelV69/" }],
+	"esmodules": ["module/main.js"],
+	"styles": ["styles/light.css", "styles/warfare.css"],
+	"languages": [{
+		"lang": "en",
+		"name": "English",
+		"path": "lang/en.json"
+	}],
+	"compatibility": {
+		"minimum": 12,
+		"verified": 12
+	},
+	"relationships": {
+		"systems": [{
+			"id": "dnd5e",
+			"type": "system",
+			"compatibility": {
+				"minimum": "4.3.0",
+				"verified": "4.3.0",
+				"maximum": "4.4.x"
+			}
+		}],
+		"requires": [],
+		"conflicts": []
+	},
+	"url": "https://bitbucket.org/Fyorl/warfare",
+	"manifest": "https://bitbucket.org/Fyorl/warfare/raw/master/module.json",
+	"download": "https://bitbucket.org/Fyorl/warfare/get/1.2.1.zip",
+	"bugs": "https://bitbucket.org/Fyorl/warfare/issues",
+	"license": "LICENSE",
+	"changelog": "CHANGELOG.md"
+
+}
