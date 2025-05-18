@@ -2,39 +2,47 @@
 	"id": "warfare",
 	"title": "Warfare - unofficial MCDM KaW Sheet",
 	"description": "An implementation of MCDM's warfare rules.",
-	"version": "1.3.0",
-	"authors": [{"name": "Kim Mantas (original)"},
-				{"name": "Michel R Vaillancourt (fork)",
-				"email": "902pe_gaming@wolfstar.ca", "github": "https://github.com/MichelV69/" }],
-	"esmodules": ["module/main.js"],
-	"styles": ["styles/light.css", "styles/warfare.css"],
-	"languages": [{
-		"lang": "en",
-		"name": "English",
-		"path": "lang/en.json"
-	}],
+	"version": "1.3.2",
+	"authors": [
+		{ "name": "Kim Mantas (original)" },
+		{
+			"name": "Michel R Vaillancourt (fork)",
+			"email": "902pe_gaming@wolfstar.ca",
+			"github": "https://github.com/MichelV69/"
+		}
+	],
+	"esmodules": [ "module/main.js" ],
+	"styles": [ "styles/light.css", "styles/warfare.css" ],
+	"languages": [
+		{
+			"lang": "en",
+			"name": "English",
+			"path": "lang/en.json"
+		}
+	],
 	"compatibility": {
 		"minimum": 12,
 		"verified": 12
 	},
 	"relationships": {
-		"systems": [{
-			"id": "dnd5e",
-			"type": "system",
-			"compatibility": {
-				"minimum": "4.3.0",
-				"verified": "4.3.0",
-				"maximum": "4.4.x"
+		"systems": [
+			{
+				"id": "dnd5e",
+				"type": "system",
+				"compatibility": {
+					"minimum": "4.3.0",
+					"verified": "4.3.0",
+					"maximum": "4.4.x"
+				}
 			}
-		}],
+		],
 		"requires": [],
 		"conflicts": []
 	},
-	"url": "https://bitbucket.org/Fyorl/warfare",
-	"manifest": "https://bitbucket.org/Fyorl/warfare/raw/master/module.json",
-	"download": "https://bitbucket.org/Fyorl/warfare/get/1.2.1.zip",
-	"bugs": "https://bitbucket.org/Fyorl/warfare/issues",
+	"url": "https://github.com/MichelV69/foundryvtt-mcdm-saf-warfare",
+	"manifest": "https://github.com/MichelV69/foundryvtt-mcdm-saf-warfare/raw/refs/heads/main/module.json",
+	"download": "https://github.com/MichelV69/foundryvtt-mcdm-saf-warfare/raw/refs/heads/main/zipfiles/v1-3-2.zip",
+	"bugs": "https://github.com/MichelV69/foundryvtt-mcdm-saf-warfare/issues",
 	"license": "LICENSE",
 	"changelog": "CHANGELOG.md"
-
 }
